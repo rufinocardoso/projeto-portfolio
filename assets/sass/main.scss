@@ -8,13 +8,7 @@
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
 
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
-// Breakpoints.
 	@include breakpoints((
 		default:   (1681px,   null     ),
 		xlarge:    (1281px,   1680px   ),
@@ -25,7 +19,6 @@
 		xxsmall:   (null,     360px    )
 	));
 
-// Color.
 	@mixin color($p) {
 		@include color-typography($p);
 		@include color-button($p);
